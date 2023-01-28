@@ -1,0 +1,64 @@
+* {
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Body styling */
+#body{
+  background-image: linear-gradient(rgb(11, 11, 86), rgb(92, 7, 107), rgb(6, 6, 74));
+  background-attachment: fixed;
+}
+
+#ball {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: black 2px;
+  background-color: rgb(255, 242, 0);
+  box-shadow: 0px 0px 30px 5px rgb(255, 242, 0);
+  box-sizing: border-box;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+#topBar {
+  height: 20px;
+  border-radius: 8px;
+  width: 100vw;
+  width: 250px;
+  border: 2px solid black;
+  background-color: rgb(0, 255, 0);
+  position: relative;
+  color: white;
+  box-sizing: border-box;
+  left: 500px;
+}
+#bottomBar {
+  height: 20px;
+  border-radius: 8px;
+  width: 250px;
+  border: 2px solid black;
+  background-color: red;
+  position: relative;
+  box-sizing: border-box;
+  top: 623px;
+  color: white;
+  left: 500px;
+}
+
+#scoreBox {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  position: fixed;
+  top: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  left: 1200px ;
+  background-color: rgb(255, 255, 175);
+  border-radius: 10px;
+}
